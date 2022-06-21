@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  background: #23424A;
+  background: #23424A;
+  color: white;
+  padding: 148px 122px;
+  margin: 0 auto;
+}
+
+.container-text {
+  width: 60%;
+  max-width: 700px;
+}
+
+h1 {
+  font-size:  48px;
+  line-height: 56px;
+  font-weight: 900;
+}
+
+p {
+  font-size: 21px;
+  line-height: 31px;
+  margin-top: 30px;
+}
+
+a {
+  display: inline-block;
+  font-size: 21px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #072A2D;
+  background-color: #38CFD9;
+  line-height: 150.19%;
+  letter-spacing: 0.05em;
+  padding: 16px 48px;
+  border-radius: 100px;
+  margin-top: 60px;
+}
