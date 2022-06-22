@@ -1,4 +1,6 @@
-* {
+*, 
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -8,17 +10,16 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.container {
-  background: #23424A;
+.hero {
   background: #23424A;
   color: white;
-  padding: 148px 122px;
-  margin: 0 auto;
+  padding: 9.25rem 0;
 }
 
-.container-text {
-  width: 60%;
+.container {
+  width: 80%;
   max-width: 700px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -35,14 +36,14 @@ p {
 
 a {
   display: inline-block;
-  font-size: 21px;
+  font-size: 1.313rem;
   font-weight: 700;
   text-decoration: none;
   color: #072A2D;
   background-color: #38CFD9;
   line-height: 150.19%;
   letter-spacing: 0.05em;
-  padding: 16px 48px;
+  padding: .75em 2em;
   border-radius: 100px;
   margin-top: 60px;
 }
