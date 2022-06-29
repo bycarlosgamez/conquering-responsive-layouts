@@ -73,10 +73,17 @@ header {
     padding: 1em 0;
 }
 
+.logo {
+    margin-right: 1em;
+    align-self: flex-end;
+}
+
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .nav__list {
@@ -86,6 +93,10 @@ header {
     font-size: .9rem;
     display: flex;
     align-items: center;
+}
+
+.nav__list--primary {
+    margin: 0 auto;
 }
 
 .nav__item + .nav__item {
